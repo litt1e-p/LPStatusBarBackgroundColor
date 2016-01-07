@@ -6,7 +6,7 @@ change UIStatusBar backgroundColor dynamically which made via runtime
 ```swift
 pod 'LPStatusBarBackgroundColor', '~> 1.0.1'
 ```
-`[swift version](https://github.com/litt1e-p/LPStatusBarBackgroundColor-swift)`
+swift version is [here](https://github.com/litt1e-p/LPStatusBarBackgroundColor-swift) 
 
 ```swift
 /** in navigationController */
