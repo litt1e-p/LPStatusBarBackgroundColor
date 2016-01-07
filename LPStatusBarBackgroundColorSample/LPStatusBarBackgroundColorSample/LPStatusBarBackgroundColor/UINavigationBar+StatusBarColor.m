@@ -1,9 +1,8 @@
 //
 //  UINavigationBar+StatusBarColor.m
-//  emb
 //
 //  Created by litt1e-p on 16/1/5.
-//  Copyright © 2016年 youkastation. All rights reserved.
+//  Copyright © 2016年 litt1e-p. All rights reserved.
 //
 
 #import <objc/runtime.h>
