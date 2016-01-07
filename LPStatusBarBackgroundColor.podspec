@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LPStatusBarBackgroundColor"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "change UIStatusBar's backgroundColor."
   s.description      = <<-DESC
                        change UIStatusBar backgroundColor dynamically which made via runtime.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = { :type => 'MIT' }
   s.author           = { "litt1e-p" => "litt1e.p4ul@gmail.com" }
-  s.source           = { :git => "https://github.com/litt1e-p/LPStatusBarBackgroundColor.git", :tag => '1.0.0' }
+  s.source           = { :git => "https://github.com/litt1e-p/LPStatusBarBackgroundColor.git", :tag => '1.0.1' }
   # s.social_media_url = 'https://twitter.com/NAME'
   s.platform = :ios, '7.0'
   # s.ios.deployment_target = '5.0'
