@@ -29,9 +29,10 @@
 - (void)swizzled_layoutSubviews
 {
     [self swizzled_layoutSubviews];
+    BOOL iOS10_OR_LATER = [[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0;
     if (self.statusBarBackgroundColor){
-        Class backgroundClass = NSClassFromString(@"_UINavigationBarBackground");
-        Class statusBarBackgroundClass = NSClassFromString(@"_UIBarBackgroundTopCurtainView");
+        Class backgroundClass = NSClassFromString(iOS10_OR_LATER ? @"_UIBarBackground" : @"_UINavigationBarBackground");
+        Class statusBarBackgroundClass = NSClassFromString(iOS10_OR_LATER ? @"UIView" : @"_UIBarBackgroundTopCurtainView");
         for (UIView * aSubview in self.subviews){
             if ([aSubview isKindOfClass:backgroundClass]) {
                 aSubview.backgroundColor = [UIColor clearColor];

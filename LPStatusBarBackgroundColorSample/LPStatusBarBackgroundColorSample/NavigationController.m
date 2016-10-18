@@ -24,7 +24,7 @@
                                 barMetrics:UIBarMetricsDefault];
     
     [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    self.navigationBar.statusBarBackgroundColor = [UIColor blackColor];
+    self.navigationBar.statusBarBackgroundColor = [UIColor greenColor];
 }
 
 + (UIImage *)imageWithColor:(UIColor *)color andSize:(CGSize)imageSize
